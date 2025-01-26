@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    background: linear-gradient(to right,yellow,greenyellow);
+}
+
+.nav-item a{
+    color: black;
+}
+
+.nav-item a:hover{
+    color: red;
+}
+
+
+
+/* //////////crouser////////// */
+
+.carousel-item img{
+    height: 600px;
+}
+
+/* grid */
+
+#grid{
+    margin-top: 80px;
+}
+
+.col-12 p{
+    text-align: justify;
+}
+
+#grid h1{
+    margin-bottom: 90px;
+    /* color: greenyellow; */
+}
+
+.col-12 button{
+    color: red;
+    background-color: yellow;
+    outline: none;
+    padding: 5px 20px;
+    border-radius: 16px;
+    border: 2px solid black;
+
+}
+
+.col-12 button:hover{
+color: black;
+background-color: greenyellow;
+}
+
+
+/* ////////gallery */
+
+#gallery{
+    margin-top: 90px;
+
+}
+
+#gallery h1{
+    /* color: greenyellow; */
+    margin-bottom: 90px;
+}
+
+.card img:hover{
+    transform: scale(1.1);
+}
+
+.container {
+    margin-bottom: 40px;
+}
+
+/* ///////contact us */
+
+
+#contact-us{
+    margin-left: 90px;
+    margin-top: 50px;
+  
+}
+
+#contact-us h1{
+    margin-bottom: 90px;
+    
+}
+
+
+
+
+/* ////////////footer//////////////// */
+
+.list-unstyled i{
+    
+    margin: 13px;
+}
+
+
+#footer{
+    margin-left: 90px;
+    margin-top: 90px;
+}
