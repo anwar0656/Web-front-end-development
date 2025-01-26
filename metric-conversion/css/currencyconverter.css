@@ -1,0 +1,142 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+h1 {
+	font-size: 50px;
+    font-family: Matura MT Script Capitals;
+}
+
+
+.main {
+	width: 50vw;
+	margin: auto;
+	padding: 30px;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+    box-shadow: 5px 3px 9px 3px goldenrod;
+    background-color: transparent;
+}
+
+
+
+label {
+	font-size: 20px;
+}
+
+#con-main{
+    z-index: 1;
+}
+
+
+
+
+
+#finalAmount {
+	font-family: 'Lobster', cursive;
+	display: none;
+	margin: 50px auto;
+}
+
+#finalAmount h2 {
+	font-size: 50px;
+}
+
+.finalValue {
+	font-family: 'Amiri', serif;
+}
+
+
+
+
+	#finalAmount h2,
+	.finalValue {
+		font-size: 40px;
+        
+	}
+
+
+
+/* navbar start */
+      
+.navbar{
+    width: 100%;
+}
+
+.navbar-brand img{
+          width: 200px;
+          height: auto;
+  }
+
+.nav-item{
+    padding: 10px;
+;
+
+}
+
+.nav-link{
+    font-size: large;
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-style: italic; */
+  }
+
+.nav-link:hover{
+    color: rgb(216, 177, 68);
+}
+
+.dropdown-menu{
+    background-color: transparent;
+}
+
+.dropdown-item:hover{
+    box-shadow: 3px 2px 5px 2px rgb(189, 174, 92);
+    border-radius: 15px;
+}
+
+/* navbar end */
+
+/* footer start */
+.text-center{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.bg-light{
+    box-shadow: 0px 5px 15px 10px rgb(90, 156, 201);
+}
+
+.text-center{
+      background-color: #0082ca;
+}
+
+/* navbar end */
+
+#con-p{
+    margin-top: 30px;
+    font-size: larger;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#myVideo {
+    min-width: 100%;
+    position:absolute;
+    opacity: 0.95;
+  }
+
+  .btn{
+    background-color: transparent;
+    color: white;
+  }
+
+  .btn:hover{
+    background-color: transparent;
+    color: goldenrod;
+  }

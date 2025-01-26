@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volume Convert</title>
+  <link rel="icon" href="images/icon-removebg-preview.png" type="icon">
+  <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="css/firstpage.css">
+  <link rel="stylesheet" href="css/volumeconverter.css">
+</head>
+<body>
+      <!-- backgound -->
+      <video style="margin-bottom: 400px; z-index: -100;width: 100%; " autoplay muted loop id="myVideo" >
+        <source src="video/black.mp4" type="video/mp4"/>
+        </video>
+ 
+  <!-- Navbarstart -->
+  
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top" style="top: 0px ; position: absolute;">
+	<div class="container">
+	  <a class="navbar-brand" href="#">
+		<img src="images/logo-removebg-preview.png" alt="..." height="36">
+	  </a>
+	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav ms-auto">
+		  <li class="nav-item">
+			<a class="nav-link" aria-current="page" href="index.html">Home</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="charts.html">Charts</a>
+		  </li>
+      <li class="nav-item">
+        <a class="nav-link" href="history.html">History of Units</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="FAQ's.html">FAQ's</a>
+          </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Articles
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="sisystem.html">SI system</a></li>
+            <li><a class="dropdown-item" href="metricsystem.html">Metric system</a></li>
+            <li><a class="dropdown-item" href="themetre.html">The Metre</a></li>
+            <li><a class="dropdown-item" href="usunits.html">Traditional U.S Units</a></li>
+          </ul>
+        </li>
+		</ul>
+	  </div>
+	</div>
+  </nav>
+  <!-- navbar end -->
+
+  <h1 style="margin-top: 100px; color: goldenrod !important;">Volume Converter</h1>
+  <div class="container-1">
+    <h3>Input Value & Convert</h3>
+    
+  <div class="inputContainer-1">
+    <label for="usliquidgalllon">US Liquid Galllon</label><input type="number" name="" id="usliquidgalllon" oninput="convertToOther('usliquidgalllon',this. value)">
+  </div>
+  
+  <div class="inputContainer-1">
+    <label for="cubicmeter">Cubic Meter</label><input type="number" name="" id="cubicmeter" oninput="convertToOther('cubicmeter',this. value)">
+  </div>
+
+  <div class="inputContainer-1">
+    <label for="liter">Liter</label><input type="number" name="" id="liter" oninput="convertToOther('liter',this. value)">
+  </div>
+
+  <div class="inputContainer-1">
+    <label for="milliliter">Milliliter</label><input type="number" name="" id="milliliter" oninput="convertToOther('milliliter',this. value)">
+  </div>
+
+  <div class="inputContainer-1">
+    <label for="cubicfoot">Cubic foot</label><input type="number" name="" id="cubicfoot" oninput="convertToOther('cubicfoot',this. value)">
+  </div>
+
+  <div class="inputContainer-1">
+    <label for="cubicinch">Cubic Inch</label><input type="number" name="" id="cubicinch" oninput="convertToOther('cubicinch',this. value)">
+  </div>
+
+  <div class="inputContainer-1">
+    <label for="fluidounce">Fluid Ounce</label><input type="number" name="" id="fluidounce" oninput="convertToOther('fluidounce',this. value)">
+  </div>
+  </div>
+
+  <div class="container" id="con-p">
+    <P>Volume is a measure of three-dimensional space. It is often quantified numerically using SI derived units or by various imperial or US customary units. The definition of length is interrelated with volume.</P>
+  </div>
+  
+    <!-- footer -->
+
+
+<footer class="bg-light text-center text-white " data-aos="fade-up" data-aos-duration="500">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #55acee;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #dd4b39;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #ac2bac;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #0082ca;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <!-- Github -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #333333;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <div class="container">
+    <h1 style="color: blue;">About Us</h1>
+  <p style="color: black;">We are a group of Students of Aptech Latifabad enthusiastic in creating quality free tools and content on the internet for learning more and more. The main purpose of this website is to provide a comprehensive collection of free online unit converters for the ease of public use. This site was launched in 2023. The entire content and tools of this site were developed in Aptech Learning Academy Latifabad.
+
+    This site is owned and operated by Group of Stuedent of Aptech Latifabad.</p>
+  <!-- Grid container -->
+</div>
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(12, 87, 158, 0.973);">
+    © 2023 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">Metric Conversion</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+  </div>
+
+<script src="bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+<script src="javascript/volumeconverter.js"></script>
+
+<script>
+AOS.init();
+</script>
+
+  
+</body>
+</html>

@@ -1,0 +1,103 @@
+
+
+h4{
+    font-size: 35px;
+    font-family: algerian;
+    color: rgb(87, 87, 241);
+    letter-spacing: 2px;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    
+}
+
+#con-2{
+    margin-top: 100px;
+    
+}
+
+/* navbar start */
+      
+.navbar{
+    width: 100%;
+}
+
+.navbar-brand img{
+          width: 200px;
+          height: auto;
+  }
+
+.nav-item{
+    padding: 10px;
+}
+
+.nav-link{
+    font-size: large;
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  }
+
+.nav-link:hover{
+    color: rgb(216, 177, 68);
+}
+
+.dropdown-menu{
+    background-color: transparent;
+    width: 230px;
+    border: none;
+}
+
+.dropdown-item:hover{
+    box-shadow: 3px 2px 5px 2px rgb(189, 174, 92);
+    border-radius: 15px;
+    color: rgb(216, 177, 68);
+}
+
+
+/* navbar end */
+
+
+/* footer start */
+.text-center{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.bg-light{
+    box-shadow: 0px 5px 15px 10px rgb(90, 156, 201);
+}
+
+.text-center{
+      background-color: #0082ca;
+}
+
+/* navbar end */
+
+            
+     
+.imgf{
+    width: 500px;
+    height: 800px;
+    margin-top: 40px;
+    border-radius: 15px;
+    margin-top: 1000px;
+
+}
+
+.imgD{
+    width: 500px;
+    height: 1000px;
+    margin-top: 800px;
+    border-radius: 15px ;
+}
+
+.imgM{
+    width: 500px;
+    height: 800px;
+    margin-top: 600px;
+    border-radius: 15px ;
+}
